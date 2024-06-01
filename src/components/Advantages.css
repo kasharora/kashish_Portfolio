@@ -1,0 +1,137 @@
+/* AdvantagesComponent.css */
+.advantages-container {
+    text-align: center;
+    margin-top: 10%;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 100px;
+    padding-top: 10%;
+  }
+.skills {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 150px;
+    /* align-items: center; */
+    margin-bottom: 50px;
+    width: 100%;
+  }
+.skill{
+    text-align: center;
+    font-weight: bold;
+    width: 20%;
+}
+.skill img {
+    width: 50%; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border-radius: 20%; /* To make the image circular */
+    margin-bottom: 10px;
+}
+.skill1:hover{
+    content: url('bootstraplogo.jpg');
+    width: 50%;
+    height: 100px;
+    transition: 1s ease;
+}
+    
+
+.skill2:hover{
+    content: url('htmllogo.png');
+    width: 50%;
+    height: 100px;
+    transition: 1s;
+}
+.skill3:hover{
+    content: url('csslogo.png');
+    width: 50%;
+    height: 100px;
+    transition: 1s;
+}
+.skill4:hover{
+    content: url('javascriptcolour.png');
+    width: 50%;
+    height: 100px;
+    transition: 1s;
+}
+.skill5:hover{
+    content: url('reactlogo.png');
+    width: 50%;
+    height: 100px;
+    transition: 1s;
+} 
+.skill6:hover{
+    content: url('sqllogo.png');
+    width: 50%;
+    height: 100px;
+    transition: 1s;
+} 
+.advantages-container h2{
+    font-size: 70px;
+    opacity: 0.5;
+}
+/* for mobile view */
+@media only screen and (max-width:760px){
+    .advantages-container{
+        width:100%;
+        padding-left: 10%;
+        margin-top: 0;
+        overflow-x: hidden;
+    }
+    .advantages-container h2{
+        font-size: 40px;
+        padding-left: 10% ;
+    }   
+    .skills{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       align-items: center;
+       margin-top: 50px;
+    }
+    .skill p{
+        margin-left: 30% ;
+        text-align: center;
+        width:150%;
+    }
+    .skill img {
+        width:100px;
+    }
+    .skill1:hover{
+        content: url('bootstraplogo.jpg');
+        width: 160%;
+        height: 100px;
+        transition: 1s ease;
+    }
+        
+    
+    .skill2:hover{
+        content: url('htmllogo.png');
+        width: 160%;
+        height: 100px;
+        transition: 1s;
+    }
+    .skill3:hover{
+        content: url('csslogo.png');
+        width: 160%;
+        height: 100px;
+        transition: 1s;
+    }
+    .skill4:hover{
+        content: url('javascriptcolour.png');
+        width: 160%;
+        height: 100px;
+        transition: 1s;
+    }
+    .skill5:hover{
+        content: url('reactlogo.png');
+        width: 160%;
+        height: 100px;
+        transition: 1s;
+    } 
+    .skill6:hover{
+        content: url('sqllogo.png');
+        width: 160%;
+        height: 100px;
+        transition: 1s;
+    } 
+
+}

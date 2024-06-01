@@ -1,0 +1,100 @@
+/* for mobile view */
+@media only screen and (max-width:760px){
+ #Navbar{
+    width:100%;
+    overflow-x: hidden;
+  }
+  .container-fluid{
+    width:100%;
+    display: none;
+    flex-direction: column;
+  }
+  .Intro{ 
+    margin-left: 10%;
+    font-size: 28px;
+    margin-top: 100px;
+    width: 100%;
+  }
+  .role{
+    font-size: 30px;
+    margin-left: 10%;
+    width: 100%;
+
+}
+
+.Button_1{
+  margin-left: 5%;
+  margin-top: 30px;
+  width: 100%;
+}
+.Scroll{
+  margin-top: 20px;
+  font-weight: bold;
+}
+.nav_for_mobile{
+  display: flex;
+  width:100%;
+  background-color:  rgb(255,165,0,0.2);
+  height: auto;
+  left:0;
+}
+.logo_img_mobile{
+  height: 50px;
+  width: 20%;  
+}
+nav .menu{
+  position:absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+  display: flex;  
+  right: 10%;
+}
+nav .menu span{
+  height:0.4rem;
+  width:100%;
+  background-color: black;
+  border-radius: 0.2rem;
+}
+nav{
+  flex-direction: column ;
+  align-items: start;
+}
+.Home{
+  margin-left: 0;
+}
+      
+.links-mobile{
+  color: white;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+
+} 
+.links-mobile .Home{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  flex-direction: column;
+  display: table-column-group;
+
+}
+.links-mobile .Home:hover{
+  color: orange;
+  transition: 1s ease;
+
+}
+
+.links-mobile .open{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+}

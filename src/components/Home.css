@@ -1,0 +1,132 @@
+.Home{
+    color:black;
+    Size:20px;
+    margin-left: 30px;
+
+}
+.container{
+    max-width: 100%;
+}
+.Home:hover{
+    color: orange;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.container-fluid{
+    display: flex;
+    width:100%;
+    background-color: rgb(255,165,0,0.2);
+    background-color: none;
+}
+nav{
+    position: fixed;
+    top:0;
+    padding-top:20px;
+    padding-bottom: 20px;
+    left: 0;
+}
+.logoimg{
+    height: 40px;
+    width: 90px ;
+    margin-left: 200px;  
+}
+.Name{
+    display: flex;
+    font-family: 'Dancing Script' , cursive;
+    font-size: 30px;
+    
+    margin-left: 40px;
+    padding-left: 10px;
+}
+.Intro{
+    font-size: 50px;
+    margin-left: 33%;
+    display: flex;
+    font-family: sans-serif;
+    margin-top: 10%;
+    padding-top: 10%;
+}
+.role{
+    font-size: 50px;
+    margin-left: 33%;
+    display: flex;
+}
+.Button_1{
+    margin-left: 38%;
+    margin-top: 50px;
+}
+.Button_resume{
+    border: 2px orange solid;
+    height: 30px;
+    background-color: white;
+    margin-right: 20px;
+    color: orange;
+}
+.Chat{
+    border: 2px orange solid;
+    height: 30px;
+    background-color: white;
+    margin-right: 20px;
+    color: orange;
+}
+.Button_resume:hover{
+    border: 2px orange solid;
+    height: 30px;
+    background-color: orange;
+    margin-right: 20px;
+    color: white;
+    transition: 0.5s;
+}.Chat:hover{
+    border: 2px orange solid;
+    height: 30px;
+    background-color: orange;
+    margin-right: 20px;
+    color: white;
+    transition: 0.5s;
+}
+.Scroll{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+body{
+    background-image: url('Bgimgae.JPG');
+    font-family:poppins;
+}
+.social-media-icons{
+    font-size: 15px;
+    display: flex;
+    margin-left: 400px;
+    height: 30px;
+    color: black;
+}
+.social-media-icons i{
+    font-size: 20px;
+    color: black;
+}
+i :hover{
+    color: orange;
+    transition: 1s;
+}
+.arrow{
+    color: black;
+    height: 250px;
+    width: 10px;
+    border-radius:30px;
+    border: 2px black solid;
+}
+.socialicon1 :hover{
+    color: orange;
+    transition: 1s;
+
+}
+.nav_for_mobile{
+    display: none;
+}
+
+.menu{
+    display: none;
+  }
+

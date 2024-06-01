@@ -1,0 +1,97 @@
+.about-me-container{
+  margin-top: 130px;
+}
+.Abouthead{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 100px;
+}
+
+.Desc{
+  font-size: 15px;
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .about-side {
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding-top: 5%;
+  }
+  
+  .photo-side {
+    flex: 1;
+  }
+  
+  .photo-side img {
+    width: 80%;
+    border-radius: 20%;
+    height: 130%;
+    align-items: center;
+    padding-top: 10%;
+  }
+  
+  .about-side h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+.About_Contact{
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.about_service{
+  margin-top: 70px;
+}
+.about_serv1{
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.about-slide3{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.about-exp{
+  font-size: 80px;
+  color: orange;
+  align-items: center;
+  font-weight: bold;
+}
+.about-exp-1{
+  font-size: 18px;
+  color: orange;
+  align-items: center;
+  font-weight: bold;
+}
+.aboutexp{
+  font-size: 15px;
+  margin-top: 200px;
+}
+/* for mobile view */
+@media only screen and (max-width:768px){
+  .about-me-container{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  .about-side{
+    margin-left: 0;
+    text-align: center;
+  }
+  .photo-side{
+    text-align: center;
+  }
+}
+
+  

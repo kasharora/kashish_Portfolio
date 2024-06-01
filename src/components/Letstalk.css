@@ -1,0 +1,130 @@
+/* styles.css */
+
+.connect-component {
+    /* display: flex; */
+    width: 50%;   
+    align-items: left;
+    padding: 0px;
+
+  }
+.main_div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 500px;
+  padding-top: 5%;
+
+}
+  
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* border: 2px black solid; */
+  }
+  
+  input,
+  textarea,
+  button {
+    margin-bottom: 30px;
+    background-color: white;
+    border-bottom:1px orange solid ;
+    border-left:orange 1px solid ;
+    box-shadow: 20px orange;
+    border-top: 0px white;
+    border-right: 0px white;
+    width: 80%;
+  }
+
+  button{
+    color: orange;
+    width: 150px;
+    border: orange 1px solid;
+  }
+  button:hover{
+    background-color: orange;
+    color: white;
+    transition: 1s;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 50px;
+
+  }
+  #my_form{
+    width: 100%;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    gap: 20px; 
+    color: black;
+  }
+
+
+
+  /* styles.css */
+/* ... (previous styles remain the same) */
+
+.logo{
+      font-size: 70px;
+      font-weight: bold;  
+      padding-top: 200px;
+      padding-left: 80px;
+      width: 50%;
+}
+.logo1{
+  display: flex;
+  font-size: 15px;
+  height: 40px;
+  width: 90px ;
+  padding-left: 30px;
+}
+
+body{
+  font-family:monospace;
+
+}
+@media only screen and (max-width:760px){
+  .main_div{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  .logo{
+    padding-top: 0;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .logo1{
+    padding-left: 0;
+  }
+  .logo1 img{
+    width: 100%;
+  }
+  .connect-component{
+    width: 100%;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+  }
+  .social-media-icons{
+    margin-top: 5%;
+    margin-left: 0%;
+
+  }
+}
